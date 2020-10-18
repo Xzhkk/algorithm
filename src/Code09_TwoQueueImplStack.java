@@ -4,6 +4,10 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Code09_TwoQueueImplStack {
+    /**
+     * 2个队列实现栈
+     * @param <T>
+     */
     public static class TwoQueueStack<T> {
         public Queue<T> queue;
         public Queue<T> help;
