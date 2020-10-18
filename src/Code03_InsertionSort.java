@@ -2,7 +2,7 @@ public class Code03_InsertionSort {
 
     public static void insertionSort(int[] arr) {
         if (arr ==null || arr.length < 2) {
-            return;
+            return ;
         }
       //0~0有序
       //0~i想有序
