@@ -9,7 +9,7 @@ public class Code04_BSExit {
 
          while (L < R) {
              // mid = (L+R)/2  防止数值溢出 不安全
-           mid = (L>>1)+(R>>1);
+           mid = L + ((R - L) >> 1);
             if (sortArr[mid] == num) {
                 return true;
             }else if (sortArr[mid] > num) {
