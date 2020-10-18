@@ -8,9 +8,9 @@ public class Code01_SelectionSort {
         for (int i = 0; i < arr.length-1; i++) {
             int minIndex = i; //每次记录最小数标
             for (int j =i+1; j < arr.length; j++) {
-                minIndex = arr[j] < arr[minIndex] ? j :minIndex;
+                minIndex = arr[j] < arr[minIndex] ? j : minIndex;
             }
-           swap(arr,i,minIndex);
+           swap(arr, i, minIndex);
         }
       }
 
