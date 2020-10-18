@@ -1,5 +1,8 @@
 import java.util.Stack;
 
+/**
+ * 2个栈形成队列
+ */
 public class Code08_TwoStacksImplQueue {
 
     public static class TwoStacksQueue {
