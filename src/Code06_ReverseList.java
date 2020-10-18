@@ -1,5 +1,8 @@
 import java.security.cert.X509Certificate;
 
+/**
+ * 反转链表
+ */
 public class Code06_ReverseList {
 
      public static class Node {
