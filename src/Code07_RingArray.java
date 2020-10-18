@@ -1,5 +1,8 @@
 public class Code07_RingArray {
 
+    /**
+     * 动态栈
+     */
     public static class MyQueue {
         private int[] arr;
         private int pushi;
