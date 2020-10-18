@@ -13,8 +13,8 @@ public class Code11_mergeSort {
             return;
         }
         int mid = L + ((R - L) >> 1);
-        process(arr,L,mid);
-        process(arr,mid+1,R);
+        process(arr, L, mid);
+        process(arr,mid+1, R);
         merge(arr,L,mid,R);
     }
 
