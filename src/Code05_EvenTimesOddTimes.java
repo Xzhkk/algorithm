@@ -10,7 +10,7 @@ public class Code05_EvenTimesOddTimes {
 
     }
 
-    //一个数组中有两种数出现了奇数次,其他数出现偶数次，怎么找到并打印这种数
+    //一个数组中有两种数出现了奇数次,其他数出现偶数次，怎么找到并打印这种数?
      public static void printOddTimesNum2(int[] arr) {
          int eor = 0;
          for (int i = 0; i < arr.length; i++) {
